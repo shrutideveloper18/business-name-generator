@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" , content="width=device-width,initial-scale=1">
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <video autoplay muted loop playsinline id="bg-video">
+        <source src="images/background.mp4" type="video/mp4">
+        Your browser does not support HTML5 video.
+    </video>
+
+    <div class="content">
+        <h1>Business Name Generator</h1>
+        <h2>WHAT TYPE OF BUSINESS DO YOU HAVE?</h2>
+        <label for="businessType">Select Business Type</label>
+
+
+        <select id="businessType" name="businessType" required>
+            <option value="">-- Choose a Category --</option>
+
+            
+            <option>Foods</option>
+            <option>Kitchen</option>
+            <option>Cafe</option>
+            <option>Bakery</option>
+            <option>Restaurant</option>
+
+            
+            <option>Engine</option>
+            <option>Motors</option>
+            <option>Auto</option>
+            <option>Garage</option>
+            <option>Repairs</option>
+
+            
+            <option>Garments</option>
+            <option>Fashion</option>
+            <option>Apparel</option>
+            <option>Textiles</option>
+            <option>Clothing</option>
+
+            
+            <option>Electronics</option>
+            <option>Tech</option>
+            <option>Digital</option>
+            <option>Software</option>
+            <option>Solutions</option>
+
+            
+            <option>Media</option>
+            <option>Studio</option>
+            <option>Designs</option>
+            <option>Creatives</option>
+            <option>Prints</option>
+
+            
+            <option>Logistics</option>
+            <option>Transport</option>
+            <option>Delivery</option>
+            <option>Traders</option>
+            <option>Exports</option>
+            <option>Imports</option>
+
+            
+            <option>Constructions</option>
+            <option>Builders</option>
+            <option>Interiors</option>
+            <option>Realty</option>
+            <option>Properties</option>
+
+            
+            <option>Services</option>
+            <option>Systems</option>
+            <option>Networks</option>
+            <option>Ventures</option>
+            <option>Industries</option>
+            <option>Manufactures</option>
+            <option>Supplies</option>
+
+            
+            <option>Mart</option>
+            <option>Store</option>
+            <option>Market</option>
+            <option>Works</option>
+            <option>Enterprises</option>
+
+            
+            <option>Consultancy</option>
+            <option>Agency</option>
+        </select>
+
+
+        <button onclick="generateName()">Generate</button>
+        <p id="out"></p>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

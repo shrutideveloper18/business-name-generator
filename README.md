@@ -6,7 +6,7 @@ The Business Name Generator helps users generate creative business names based o
 
 ---
 # LIVE PREVIEW:
-
+ https://shrutideveloper18.github.io/business-name-generator/
 ## ✨ Features
 
 - 🎥 Video background for a modern UI
